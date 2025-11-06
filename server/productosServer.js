@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["https://dashborad-luxe-ventas.vercel.app", "https://pagina-luxe-front.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
