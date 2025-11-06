@@ -7,6 +7,8 @@ export const pool = new Pool({
   database: "neondb",
   user: "neondb_owner",
   password: "npg_IDVLiNwG7db2",
+  PGSSLMODE: "require",
+  PGCHANNELBINDING: "require",
 });
 
 export default pool;
